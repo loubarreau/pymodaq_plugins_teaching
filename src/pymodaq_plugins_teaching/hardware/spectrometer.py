@@ -7,7 +7,7 @@ import math
 from time import perf_counter
 
 
-class Spectrometer:
+class Spectrometer: #classe
     """Mock Controller of a spectrometer
 
     Allows to change the used grating, to move the grating by setting the central wavelength and get the data out of it
@@ -17,7 +17,7 @@ class Spectrometer:
     Nx = 256
     infos = 'Spectrometer Controller Wrapper 0.1.0'
 
-    def __init__(self):
+    def __init__(self): # méthode
         super().__init__()
 
         self._amp = 10
